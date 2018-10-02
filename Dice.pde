@@ -15,9 +15,6 @@ void draw(){
   }
     text("Total number is: " + count, 295, 595);
    	count = 0;
-
-
-
 }
 void mousePressed(){
 	redraw();
@@ -37,7 +34,6 @@ class Die {
 	void show(){
 		fill(255);
 		rect(myX,myY,50,50);
-		System.out.println(numDice);
 		fill((int)(Math.random()* 255),(int)(Math.random()* 255),(int)(Math.random()* 255));
 		if (numDice == 1){
    			ellipse(myX + 25, myY + 25, 10,10);
