@@ -5,6 +5,7 @@ void setup(){
   noLoop();
 }
 void draw(){
+  background(255);
   for(int y = 0 ; y <= 590; y += 60)
   {
     for(int x = 0 ; x <= 600 ; x += 60)
